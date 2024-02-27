@@ -1,0 +1,10 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --bg-dark: #16151d;
+  --white: #f5f5f5;
+  --white-gray: #e6e6e6;
+  --brand: #407bff;
+  --dark-gray: #2f2e3b;
+  --btn-hover: #2669fc;
+  --dark: #1111114f;
+}

@@ -100,6 +100,9 @@
 
 .apresentation .skills {
   display: flex;
+  max-width: 800px;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 6rem;
 }
 
@@ -137,7 +140,7 @@
 }
 
 .apresentation .skills .icon.nuxt:hover {
-  border-color: #00838F;
+  border-color: #00838f;
 }
 
 .apresentation .skills .icon.ts:hover {

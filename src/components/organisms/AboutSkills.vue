@@ -19,6 +19,9 @@
           <img src="../../assets/images/icons/vue-icon.svg" alt="vue icon" />
         </div>
         <div class="icon">
+          <img src="../../assets/images/icons/nuxt-icon.svg" alt="nuxt icon" />
+        </div>
+        <div class="icon">
           <img
             src="../../assets/images/icons/ts-icon.svg"
             alt="typescript icon"

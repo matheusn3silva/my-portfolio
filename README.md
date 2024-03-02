@@ -1,5 +1,29 @@
-# my-portfolio
+<div id="content-en">
+    # My Portfolio
+    <button onclick="changeLang('pt')">Change portuguese</button>
+</div>
 
+<div id="content-pt" style="display:none">
+    # My Portfolio
+    <button onclick="changeLang('en')">Mudar para Inglês</button>
+</div>
+
+<script>
+    const lang = 'pt';
+    const divEn = document.getElementById('content-en');
+    const divPt = document.getElementById('content-pt');
+
+    function changeLang(value){
+        lang = value;
+        if(lang === 'pt') {
+            divEn.style.display = 'block'
+            divPt.style.display = 'none'
+        } else {
+            divEn.style.display = 'none'
+            divPt.style.display = 'block'
+        }
+    }
+</script>
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup

@@ -24,6 +24,9 @@
       <div class="icon vue">
         <img src="../../assets/images/icons/vue-icon.svg" alt="Vue js icon" />
       </div>
+      <div class="icon nuxt">
+        <img src="../../assets/images/icons/nuxt-icon.svg" alt="Nuxt js icon" />
+      </div>
       <div class="icon ts">
         <img
           src="../../assets/images/icons/ts-icon.svg"
@@ -131,6 +134,10 @@
 
 .apresentation .skills .icon.vue:hover {
   border-color: #41b883;
+}
+
+.apresentation .skills .icon.nuxt:hover {
+  border-color: #00838F;
 }
 
 .apresentation .skills .icon.ts:hover {
